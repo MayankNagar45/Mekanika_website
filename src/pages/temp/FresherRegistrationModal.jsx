@@ -134,7 +134,7 @@ const FresherRegistrationModal = () => {
           {/* Question */}
           <div className="text-center">
             <h3 className="text-lg font-semibold text-yellow-400 mb-2">
-              Are you a First Year Student?
+              Are you a First / Second Year Student?
             </h3>
             <p className="text-gray-300 text-sm leading-relaxed">
               Join our society and become a part of the Mekanika family!
@@ -157,7 +157,7 @@ const FresherRegistrationModal = () => {
               onClick={handleNoFresher}
               className="w-full bg-gray-800 text-gray-300 font-medium py-3 px-4 rounded-lg border border-gray-700 hover:bg-gray-700 hover:text-white transition-all duration-200"
             >
-              No, I'm not a fresher
+              No, I'm not a fresher/ sophomore
             </button>
           </div>
         </div>
