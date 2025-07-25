@@ -222,7 +222,7 @@ const CourseMaterial = () => {
         </div>
         <p className='pt-2'>These Online Classes Resources by Jus Jaisinghani</p>
       </div>
-      <div>
+      {/* <div>
       <button 
   onClick={openContributeModal}
   className="fixed bottom-8 right-8 z-30 bg-yellow-400 hover:bg-yellow-500 text-zinc-900 font-bold rounded-full p-4 shadow-lg hover:shadow-xl transition-all flex items-center group" style={{overflowX: 'hidden'}}
@@ -233,7 +233,7 @@ const CourseMaterial = () => {
     Contribute Material
   </span>
 </button>
-</div>
+</div> */}
 {/* Contribute Modal */}
 <ContributeModal 
   isOpen={isModalOpen} 

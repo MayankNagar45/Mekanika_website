@@ -10,13 +10,13 @@ import CourseMaterial from './pages/Materials/CourseMaterial';
 import { DepProjects } from './pages/Projects/DepProjects';
 import { TextRevealDemo } from './components/TextRevealDemo';
 import { Analytics } from "@vercel/analytics/react";
-
 import Team from './pages/Team/Team';
 import NotFound from './pages/Error404/Error404';
 import ScreenSizeAlert from './components/ScreenSizeAlert'; 
 import {ProfResearchArea} from './pages/Reseach_Area/Prof_ResearchArea';
 import DepMap from './pages/DepMap/DepMap';
 import AdminPage from './pages/AdminPage/AdminPage';
+import FresherRegistrationModal from './pages/temp/FresherRegistrationModal.jsx'; 
 
 // Lazy-load pages and components
 const Home = lazy(() => import('./pages/HomePage/Home'));
@@ -55,6 +55,10 @@ function AppContent() {
       <ScrollToTop />
       <Analytics />
       <SpeedInsights/>
+      
+      {/* Add the Fresher Registration Modal - appears on all pages */}
+      <FresherRegistrationModal />
+      
       {showNavAndFooter && <Navbar />}
       <Suspense fallback={<Loader />}>
         <Routes>
