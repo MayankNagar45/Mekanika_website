@@ -61,14 +61,14 @@ const AdminPage = () => {
     setIsAuthenticated(false);
     localStorage.removeItem("mechKgpAdminAuth");
   };
-  const copyMaterialStructure = (material) => {
-    const template = `{
-    title: '${material.subject}',
-    link: '${material.driveLinks[0]}',
-    // ${material.notes || "No notes provided"}
-  },`;
-    navigator.clipboard.writeText(template);
-  };
+  // const copyMaterialStructure = (material) => {
+  //   const template = `{
+  //   title: '${material.subject}',
+  //   link: '${material.driveLinks[0]}',
+  //   // ${material.notes || "No notes provided"}
+  // },`;
+  //   navigator.clipboard.writeText(template);
+  // };
 
   const fetchMaterials = async () => {
     setLoading(true);
