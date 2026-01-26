@@ -33,32 +33,39 @@ const images = [
     require("../../components/event_Images/gl2.jpg"),
     require("../../components/event_Images/gl3.jpg"),
     require("../../components/event_Images/gl4.jpg"),
+    require("../../components/event_Images/kyd_2025_1.jpg"),
+    require("../../components/event_Images/kyd_2025_2.jpg"),
+    require("../../components/event_Images/kyd_2025_3.jpg"),
+    require("../../components/event_Images/kyd_2025_4.jpg"),
+    require("../../components/event_Images/kyd_2025_5.jpg"),
 ];
 
 export const cardData = [
-    {
-      title: "KNOW YOUR DEPARTMENT",
-      description:
-        "Mekanika organized the 'Know Your Department' event to welcome freshers. Professors provided an overview of the coursework, and key study areas, while students engaged in discussions to gain valuable insights. ",
-      imageUrls: [ images[21], images[22], images[23]],
-      carouselImage: images[21], // Featured image for carousel
-      ctaPrimary: {
-        label: "Explore now →",
-        link: "https://example.com",
-      },
-      ctaSecondary: {
-        label: "5 Aug 2024",
-      },
-    },
+  {
+  title: "KNOW YOUR DEPARTMENT 2025",
+  description:
+    "The 'Know Your Department 2025' event was organized to welcome the incoming batch. Faculty members introduced the department structure, curriculum roadmap, research areas, and opportunities, while interactive discussions helped freshers gain clarity about academics and student life.",
+  imageUrls: [images[28], images[29], images[30]], 
+  carouselImage: images[28],
+  ctaPrimary: {
+    label: "Explore now →",
+    // link: "https://example.com",
+  },
+  ctaSecondary: {
+    label: "Aug 2025",
+  },
+},
+
+   
     {
       title: "KNOW YOUR MATES",
       description:
         "From exciting games and wit to heartwarming introductions and stories that had us all in stitches, this event was all about forging bonds and creating memories that will last a lifetime. A huge shoutout to all the participants for bringing your enthusiasm and energy!",
       imageUrls: [images[0], images[1], images[2], images[3]], 
-      carouselImage: images[0], // Featured image for carousel
+      carouselImage: images[0],
       ctaPrimary: {
         label: "View more →",
-        link: "https://twitter.com/mannupaaji",
+        // link: "https://twitter.com/mannupaaji",
       },
       ctaSecondary: {
         label: "4 Oct 2024",
@@ -67,12 +74,12 @@ export const cardData = [
     {
       title: "MECH D TALKS",
       description:
-        "shared their valuable insights with Mechanical Department students on academics and CDC Internships. The session commenced with warm welcomes and brief introductions, paving the way for a succinct exploration of academic journeys. The panelists emphasized the value of holistic growth, balancing academics with extracurricular pursuits. The spotlight then shifted to internship experiences, with panelists sharing industry insights, project highlights, and invaluable tips on securing internships. A lively Q&A session ensued, providing students with direct interaction opportunities. ",
+        "Seniors shared their valuable insights with Department students on academics and CDC Internships. The session commenced with warm welcomes and brief introductions, paving the way for a succinct exploration of academic journeys. The panelists emphasized the value of holistic growth, balancing academics with extracurricular pursuits. The spotlight then shifted to internship experiences, with panelists sharing industry insights, project highlights, and invaluable tips on securing internships. A lively Q&A session ensued, providing students with direct interaction opportunities. ",
       imageUrls: [images[4], images[5], images[6], images[7]],
-      carouselImage: images[4], // Featured image for carousel
+      carouselImage: images[4], 
       ctaPrimary: {
         label: "Explore now →",
-        link: "https://example.com",
+        // link: "https://example.com",
       },
       ctaSecondary: {
         label: "12 Nov 2024",
@@ -86,7 +93,7 @@ export const cardData = [
       carouselImage: images[13], // Featured image for carousel
       ctaPrimary: {
         label: "Explore now →",
-        link: "https://example.com",
+        // link: "https://example.com",
       },
       ctaSecondary: {
         label: "4 Jan 2025",
@@ -100,13 +107,26 @@ export const cardData = [
       carouselImage: images[8], // Featured image for carousel (quiz awards)
       ctaPrimary: {
         label: "Explore now →",
-        link: "https://example.com",
+        // link: "https://example.com",
       },
       ctaSecondary: {
         label: "4 Feb 2024",
       },
     },
-    
+     {
+      title: "KNOW YOUR DEPARTMENT",
+      description:
+        "We organized the 'Know Your Department' event to welcome freshers. Professors provided an overview of the coursework, and key study areas, while students engaged in discussions to gain valuable insights. ",
+      imageUrls: [ images[21], images[22], images[23]],
+      carouselImage: images[21], 
+      ctaPrimary: {
+        label: "Explore now →",
+        // link: "https://example.com",
+      },
+      ctaSecondary: {
+        label: "5 Aug 2024",
+      },
+    },
     {
       title: "GUEST LECTURE",
       description:
@@ -115,7 +135,7 @@ export const cardData = [
       carouselImage: images[24], // Featured image for carousel
       ctaPrimary: {
         label: "Explore now →",
-        link: "https://example.com",
+        // link: "https://example.com",
       },
       ctaSecondary: {
         label: "9 Aug 2023",
@@ -129,7 +149,7 @@ export const cardData = [
       carouselImage: images[18], // Featured image for carousel
       ctaPrimary: {
         label: "Explore now →",
-        link: "https://example.com",
+        // link: "https://example.com",
       },
       ctaSecondary: {
         label: "15 March 2024",

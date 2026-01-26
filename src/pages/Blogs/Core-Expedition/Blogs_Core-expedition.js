@@ -35,7 +35,7 @@ const BlogsCE = () => {
 
     return (
         <div className=" relative min-h-screen bg-gradient-to-b from-gray-950 to-zinc-950 text-white py-12 overflow-hidden shadow-bottom-only shadow-yellow-400 pb-8">
-            <BackgroundBeamsWithCollision from="CE" className="absolute inset-0 w-full h-full" />
+            {/* <BackgroundBeamsWithCollision from="CE" className="absolute inset-0 w-full h-full" /> */}
 
             <div className="container mx-auto px-4 relative z-10">
                 <div className="flex flex-col sm:flex-row sm:items-center sm:justify-center mt-20">

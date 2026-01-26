@@ -54,21 +54,16 @@ const Navbar = () => {
     },
     { id: 3, text: "Events", link: "/events" },
     { id: 4, text: "Materials", link: "/course-material" },
-    { id: 5, text: "Department Projects",
+    { id: 5, text: "Research areas", link: "/research-areas" },
+    { id: 5, text: "Team", link: "/team" },
+
+   {
+      id: 7, 
+      text: "Explore", 
       subItems: [
-        { id: 51, text: "Research areas", link: "/research-areas" },
-        { id: 52, text: "Research Projects", link: "/projects" },
-    ]
-    },
-    {
-      id: 6,
-      text: "more",
-      subItems: [
-        { id: 61, text: "Team", link: "/team" },
-        // { id: 62, text: "Video", link: "/under-construction" },
-        { id: 63, text: "gallery", link: "/gallery" },
-        { id: 64, text: "Dep Map", link: "/dep-map" },
-        { id: 65, text: "registration", link: "/under-construction" },
+        { id: 71, text: "Gallery", link: "/gallery" },
+        { id: 72, text: "Dep Map", link: "/dep-map" },
+        { id: 73, text: "Registration", link: "/under-construction" },
       ],
     },
   ];

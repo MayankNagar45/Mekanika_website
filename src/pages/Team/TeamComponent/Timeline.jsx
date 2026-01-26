@@ -258,13 +258,13 @@ export function PastTimeline() {
       name: "Bhumi Tayal",
       image: "",
       title: "",
-      linkedin: "https://www.linkedin.com/in/",
+      linkedin: "https://in.linkedin.com/in/bhumi-tayal-725913226",
     },
     {
       name: "Tarun",
       image: "",
       title: "",
-      linkedin: "https://www.linkedin.com/in/",
+      linkedin: "https://www.linkedin.com/in/tarun-vemana",
     },
     {
       name: "Prashant",
@@ -279,19 +279,31 @@ export function PastTimeline() {
       name: "Venkata Sai Saran Grandhe",
       image: "",
       title: "",
-      linkedin: "https://www.linkedin.com/in/",
+      linkedin: "https://www.linkedin.com/in/venkatasaisaran",
     },
     {
       name: "Anwesha Patel",
       image: "",
       title: "",
-      linkedin: "https://www.linkedin.com/in/",
+      linkedin: "https://www.linkedin.com/in/anwesha-patel-0a6827221",
     },
     {
       name: "Sambhav Jena",
       image: "",
       title: "",
-      linkedin: "https://www.linkedin.com/in",
+      linkedin: "https://www.linkedin.com/in/sambhav-jena-7a7ab5200",
+    },
+    {
+      name: "Ritvik Dhawe ",
+      image: "",
+      title: "",
+      linkedin: "https://www.linkedin.com/in/ritvik-dhawe",
+    },
+    {
+      name: "Samarth Singh",
+      image: "",
+      title: "",
+      linkedin: "https://www.linkedin.com/in/samarth-singh-2003",
     },
   ];
   
@@ -300,7 +312,7 @@ export function PastTimeline() {
       name: "Kanha Jain",
       image: "",
       title: "",
-      linkedin: "https://www.linkedin.com/in",
+      linkedin: "https://in.linkedin.com/in/kanha-jain-5819461a4",
     },
   ];
 

@@ -246,7 +246,7 @@ const modalRef = useRef(null);
                       </label>
                       <p className="text-gray-400 text-xs mb-2">
                         Don't forget to give access to our mail ids:
-                        mekanika2022@gmail.com and
+                         mekanikaiitkgporg@gmail.com and
                         jeevankumarkorra@kgpian.iitkgp.ac.in
                       </p>
 

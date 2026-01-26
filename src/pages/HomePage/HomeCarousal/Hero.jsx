@@ -4,6 +4,7 @@ import Image2 from "../../../components/Images/ME02.jpg";
 import Image3 from "../../../components/Images/ME003.jpg";
 import Image4 from "../../../components/Images/ME5.jpg";
 import Image5 from "../../../components/Images/ME3.png";
+// import Image6 from "../../../components/event_Images/MDT2.jpg";
 import { GradualSpacing } from "../../../components/magicui/GradualSpacing.tsx";
 
 const images = [Image1, Image2, Image3, Image4, Image5];

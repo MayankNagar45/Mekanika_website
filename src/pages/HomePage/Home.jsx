@@ -8,6 +8,7 @@ import {AnimatedTestimonialsDemo} from './HomeEvents/HomeEvents.tsx';
 import { HeroVideo } from './HomeVideo/HeroVideo.jsx';
 import { MediumRegister } from '../../components/MediumRegister.jsx';
 import EventNotification from './EventNotification.jsx'; 
+import HomeGallery from '../Gallery/HomeGallery.jsx';
 
 const Home = () => {
   useEffect(() => {
@@ -25,6 +26,7 @@ const Home = () => {
       <SuccessStories />
       <AnimatedTestimonialsDemo/>
       <HeroVideo/>
+      <HomeGallery/>
       <MediumRegister/>
     </section>
   );

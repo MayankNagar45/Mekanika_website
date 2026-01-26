@@ -320,7 +320,7 @@ const HorizontalScroll = () => {
   
   // Faculty data
   const facultyData = {
-    name: "Prof. Jeevan Jyoti Chakraborty",
+    name: "Prof. Jeevanjyoti Chakraborty",
     role: "Faculty Incharge",
     image: "/TeamImages/JC.png"
   };
@@ -384,7 +384,7 @@ const HorizontalScroll = () => {
     {
       name: "Jeevan Kumar Korra", 
       role: "Web Head",
-      image: "/TeamImages/jeevan.jpg",
+      // image: "/TeamImages/jeevan.png",
       socials: {
         linkedin: "https://www.linkedin.com/in/jeevan-kumar-korra-068726252/",
         mail: "jeevankumarkorra2005@gmail.com",

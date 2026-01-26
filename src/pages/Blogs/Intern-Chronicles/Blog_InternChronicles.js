@@ -15,7 +15,7 @@ const BlogsIC = () => {
 
     return (
         <div className=" relative min-h-screenbg-gradient-to-b from-gray-950 to-zinc-900 text-white py-12 overflow-hidden shadow-bottom-only shadow-yellow-400 pb-8">
-            <BackgroundBeamsWithCollision from="IC" className="absolute inset-0 w-full h-full" />
+            {/* <BackgroundBeamsWithCollision from="IC" className="absolute inset-0 w-full h-full" /> */}
             <div className="container mx-auto px-4 relative z-10">
                 <div className="flex flex-col sm:flex-row sm:items-center sm:justify-center mt-20">
                     <h2 className="text-2xl lg:text-4xl font-extrabold text-gradient bg-clip-text text-transparent bg-pink-700 text-center mb-0 sm:mb-20  sm:text-left">

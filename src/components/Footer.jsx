@@ -110,7 +110,7 @@ const Footer = () => {
               Contact Us
             </h2>
             <div className="text-gray-300 text-center md:text-left">
-              <p className="mb-1">Email: mekanika2022@gmail.com</p>
+              <p className="mb-1">Email: mekanikaiitkgporg@gmail.com</p>
               <div className="mb-1">
                 <div className="flex flex-wrap items-center justify-center md:justify-start">
                   <span className="mr-1">Phone:</span>

@@ -68,7 +68,7 @@ function AppContent() {
           <Route path="/intern-chronicles" element={<BlogsIC />} />
           <Route path="/events" element={<Events />} />
           <Route path="/course-material" element={<CourseMaterial />} />
-          <Route path="/projects" element={<DepProjects />} />
+          {/* <Route path="/projects" element={<DepProjects />} /> */}
           <Route path="/speed-insights" element={<SpeedInsights />} />
           <Route path="/team" element={<Team />} />
           <Route path="/under-construction" element={<TextRevealDemo />} />
