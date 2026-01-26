@@ -14,6 +14,7 @@ const EventNotification = () => {
   const eventDate = new Date('2025-04-07T17:30:00+05:30');
   const eventTitle = "Farewell for the graduating batch";
   
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   useEffect(() => {
     const currentDate = new Date();
     if (currentDate >= eventDate) {

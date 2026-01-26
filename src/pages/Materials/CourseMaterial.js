@@ -5,7 +5,7 @@ import AOS from 'aos';
 import 'aos/dist/aos.css';
 import { GradualSpacing } from "../../components/magicui/GradualSpacing.tsx";
 import { Spotlight } from "../../components/ui/spotlight-new.jsx";
-import { Upload } from 'lucide-react';
+// import { Upload } from 'lucide-react';
 import ContributeModal from './ContributeModal';
 
 
