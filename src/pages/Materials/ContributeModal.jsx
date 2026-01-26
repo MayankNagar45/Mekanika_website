@@ -1,5 +1,5 @@
 import { useState, useEffect ,useRef } from "react";
-import { X, Plus, Book, ArrowRight, Check, Upload } from "lucide-react";
+import { X, Plus, Book, ArrowRight, Check } from "lucide-react";
 import { collection, addDoc, serverTimestamp } from "firebase/firestore";
 import { db } from "../../firebase";
 
@@ -235,7 +235,7 @@ const modalRef = useRef(null);
                         onChange={handleChange}
                         required
                         className="w-full bg-zinc-800 border border-zinc-700 rounded-lg px-4 py-2 text-white focus:outline-none focus:ring-2 focus:ring-yellow-400 text-sm"
-                        placeholder="22ME10XXX"
+                        placeholder="24ME10XXX"
                       />
                     </div>
 

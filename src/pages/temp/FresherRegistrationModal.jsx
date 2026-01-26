@@ -36,7 +36,7 @@ const FresherRegistrationModal = () => {
     }, MODAL_DELAY);
 
     return () => clearTimeout(timer);
-  }, []);
+  }, [FORM_START_DATE]);
 
   const handleClose = () => {
     setShowModal(false);

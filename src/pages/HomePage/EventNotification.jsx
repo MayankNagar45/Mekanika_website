@@ -33,7 +33,7 @@ const EventNotification = () => {
       
       return () => clearTimeout(timer);
     }
-  }, []);
+  }, [eventDate]);
   
   useEffect(() => {
     if (!showNotification) return;
