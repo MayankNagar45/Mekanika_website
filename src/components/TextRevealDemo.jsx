@@ -1,4 +1,4 @@
-import {TextRevealByWord} from "./magicui/TextReveal.tsx";
+// import {TextRevealByWord} from "./magicui/TextReveal.tsx";
 import FresherRegistrationModal from '../pages/temp/FresherRegistrationModal.jsx';
 
 export function TextRevealDemo() {

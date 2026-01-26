@@ -10,7 +10,7 @@ const EventNotification = () => {
     seconds: 0
   });
   
-
+// eslint-disable-next-line react-hooks/exhaustive-deps
   const eventDate = new Date('2025-04-07T17:30:00+05:30');
   const eventTitle = "Farewell for the graduating batch";
   
@@ -59,6 +59,7 @@ const EventNotification = () => {
     const intervalId = setInterval(updateCountdown, 1000);
     
     return () => clearInterval(intervalId);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [showNotification]);
   
   const handleClose = () => {

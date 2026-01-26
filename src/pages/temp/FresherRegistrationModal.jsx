@@ -6,6 +6,7 @@ const FresherRegistrationModal = () => {
   const [isFormDisabled, setIsFormDisabled] = useState(false);
 
   // Configuration
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   const FORM_START_DATE = new Date('2025-07-25');
   const FORM_DURATION_DAYS = 15;
   const MODAL_DELAY = 10000; // 10 seconds

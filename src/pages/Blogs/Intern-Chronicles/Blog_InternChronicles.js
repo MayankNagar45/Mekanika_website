@@ -6,7 +6,7 @@ import 'aos/dist/aos.css';
 import IC_blogsData from '../../../components/assets/IC_blogsData';
 import { GlareCard } from '../../../components/ui/glare-Crad.jsx';
 import { MediumRegister } from '../../../components/MediumRegister.jsx';
-import { BackgroundBeamsWithCollision } from '../../../components/ui/background-beams-with-collision.jsx';
+// import { BackgroundBeamsWithCollision } from '../../../components/ui/background-beams-with-collision.jsx';
 
 const BlogsIC = () => {
     useEffect(() => {

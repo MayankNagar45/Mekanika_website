@@ -15,7 +15,6 @@ import {
   X,
   LogOut,
   ShieldAlert,
-  Calendar,
   User,
   Mail,
   Phone,
@@ -45,6 +44,7 @@ const AdminPage = () => {
     if (isAuthenticated) {
       fetchMaterials();
     }
+    //eslint-disable-next-line react-hooks/exhaustive-deps
   }, [isAuthenticated, statusFilter, sortBy, sortDirection]);
 
   const handleLogin = (e) => {

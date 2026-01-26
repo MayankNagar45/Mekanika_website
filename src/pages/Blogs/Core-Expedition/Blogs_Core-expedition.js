@@ -7,7 +7,7 @@ import 'aos/dist/aos.css';
 import CE_blogsData from '../../../components/assets/CE_blogsData';
 import { GlareCard } from '../../../components/ui/glare-Crad.jsx';
 import { MediumRegister } from '../../../components/MediumRegister.jsx';
-import { BackgroundBeamsWithCollision } from '../../../components/ui/background-beams-with-collision.jsx';
+// import { BackgroundBeBlog_InternChronicles.jsamsWithCollision } from '../../../components/ui/background-beams-with-collision.jsx';
 
 const blogItems = document.querySelectorAll('.blog-item');
 
