@@ -3,6 +3,7 @@ import './Team.css';
 import HorizontalScroll from './TeamComponent/HorizontalScroll';
 import { PastTimeline } from './TeamComponent/Timeline';
 import { motion, useInView, useAnimation } from "framer-motion";
+import Secretaries from './TeamComponent/Secretaries';
 
 const Team = () => {
   const [horizontalScrollComplete, setHorizontalScrollComplete] = useState(false);
@@ -53,6 +54,7 @@ const Team = () => {
   return (
     <div className="team-page overflow-hidden shadow-bottom-only shadow-yellow-400 ">
       <HorizontalScroll />
+      <Secretaries />
       <motion.div 
         ref={timelineRef}
         className="timeline-section"

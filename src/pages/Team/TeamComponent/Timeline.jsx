@@ -188,7 +188,7 @@ export const Timeline = ({ data }) => {
     >
       <div className="max-w-7xl mx-auto py-20 px-4 md:px-8 lg:px-10 flex justify-center items-center mt-24">
         <h2 className="text-xl md:text-4xl mb-4 max-w-4xl text-center text-yellow-400 z-10">
-          Former Executive Teams
+          FORMER EXECUTIVE TEAMS
         </h2>
       </div>
 
